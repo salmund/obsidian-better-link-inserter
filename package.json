@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
-	"version": "1.0.1",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"name": "obsidian-selected-word-as-alias",
+	"version": "1.0.0",
+	"description": "Use the selected word as an alias in link suggestion.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
