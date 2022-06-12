@@ -14,4 +14,4 @@
 
 - It basically replace the formal "insert markdown link", so you can just use my plugin instead
 
-because if you try to insert a link when no wor is selected it works the same way
+because if you try to insert a link when no word is selected it works the same way
