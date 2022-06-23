@@ -11,7 +11,7 @@ export default class BetterLinkInserterPlugin extends Plugin {
 		// This adds an editor command that can perform some operation on the current editor instance
 		this.addCommand({
 			id: "use-selected-word-as-alias",
-			name: "Insert an internal link",
+			name: "Insert an internal link (using selected word as alias if possible)",
 			editorCallback: (editor: Editor, view: MarkdownView) => {
 				const selected_word = editor.getSelection();
 				if (selected_word == "") {
@@ -32,13 +32,6 @@ export default class BetterLinkInserterPlugin extends Plugin {
 			},
 		});
 
-		// If the plugin hooks up any global DOM events (on parts of the app that doesn't belong to this plugin)
-		// Using this function will automatically remove the event listener when this plugin is disabled.
-
-		// When registering intervals, this function will automatically clear the interval when the plugin is disabled.
-		this.registerInterval(
-			window.setInterval(() => console.log("setInterval"), 5 * 60 * 1000)
-		);
 	}
 
 	onunload() {}
