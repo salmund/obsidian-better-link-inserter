@@ -10,8 +10,6 @@ The best way to support me is to
 
 ![after](https://user-images.githubusercontent.com/105465034/173254099-16e35e1a-dcff-4d08-87ac-0c5813d0480b.gif)
 
-(thanks Salmund !)
-
 ## Other features
 
 - It basically replace the formal "insert markdown link", so you can just use my plugin instead
